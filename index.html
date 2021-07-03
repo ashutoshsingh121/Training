@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Change Color</title>
+    <style>
+        #changeRed{
+            background-color: #f44336;
+        }
+        #changeGreen{
+
+    
+            background-color:green;      
+             }
+        #changePink{
+            background-color: pink;
+        }
+        #changeBlue{
+            background-color:blue;
+        }
+        .button {
+
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+    </style>
+    
+
+</head>
+<body>
+
+<p>
+    <br>
+    <h1>
+<span id="output">TEST COLOR TEST COLOR TEST COLOR TEST COLOR TEST COLOR TEST COLOR TEST COLOR TEST</span>
+</h1>
+</p>
+<br>
+<button class="button" id="changeGreen">GREEN</button>
+<button class="button" id="changeRed">RED</button>
+<button class="button" id="changeBlue">BLUE</button>
+<button  class="button" id="changePink">PINK</button>
+
+<!-- <script src="main.js"></script> -->
+<script>
+
+    document.getElementById("changeGreen").onclick = function(){
+        document.getElementById("output").style.color = "green";
+    }
+    
+    document.getElementById("changeRed").onclick = function(){
+        document.getElementById("output").style.color = "red";
+    }
+    document.getElementById("changeBlue").onclick = function(){
+        document.getElementById("output").style.color = "blue";
+    }
+    document.getElementById("changePink").onclick = function(){
+        document.getElementById("output").style.color = "pink";
+    }
+    </script>
+</body>
+
+</html>
