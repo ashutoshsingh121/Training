@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Albums</title>
+</head>
+<style>
+    .content-container {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding: 2rem 1rem;
+  min-height: 50vh;
+}
+
+.content-text {
+  text-align: center;
+  margin: 0;
+  font-style: italic;
+  font-weight: bolder;
+  margin-left: 100px;
+}
+
+.image-link {
+  display: block;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+}
+
+.image-1 {
+  background-image: url("https://images.unsplash.com/photo-1576753634120-53617961eb04?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ");
+}
+.image-2 {
+  background-image: url("https://images.unsplash.com/photo-1545310834-cd6a8a0884b8?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ");
+}
+.image-3 {
+  background-image: url("https://images.unsplash.com/photo-1544939514-aa98d908bc47?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ");
+}
+
+
+</style>
+<body>
+
+    <div class="row no-gutters my-row">
+        <div class="col-12 col-md-6">
+          <a href="#" class="image-link image-1"></a>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="content-container">
+            <p class="content-text">Pic 1</p>
+          </div>
+        </div>
+      </div>
+      <div class="row no-gutters my-row">
+        <div class="col-12 col-md-6 order-md-2">
+          <a href="#" class="image-link image-2"></a>
+        </div>
+        <div class="col-12 col-md-6 order-md-1">
+          <div class="content-container">
+            <p class="content-text">Pic 2</p>
+          </div>
+        </div>
+      </div>
+      <div class="row no-gutters my-row">
+        <div class="col-12 col-md-6">
+          <a href="#" class="image-link image-3"></a>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="content-container">
+            <p class="content-text"> Pic 3</p>
+          </div>
+        </div>
+      </div>
+    
+</body>
+</html>
